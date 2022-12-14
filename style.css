@@ -1,0 +1,89 @@
+body{
+    background:url(./img/background7.png);
+    background-size: cover;
+}
+.gameName{             /* https://blog.csdn.net/weixin_44044705/article/details/106319784 */
+    text-align: center;
+    text-shadow: 1px 1px 0px yellow,
+    2px 2px 2px orange,
+    3px 3px 2px orangered,
+    5px 5px 2px red;
+    font-family: 'Alfa Slab One', cursive;
+    color:blue;
+    font-size: 40px;
+}
+h2{
+    margin: 1px auto;
+    text-align: center;
+    color:black;
+}
+
+/* https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/ */
+button{
+    /* display: block; */
+    width: 100px;
+    height: 30px;
+    display:inline-block;
+    margin:10px 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px rgb(0,0,0);
+}
+.buttons{
+    text-align: center;
+}
+#start:hover{
+    background-color: aqua;
+    transition: 1s;
+}
+#reset:hover{
+    background-color: aqua;
+    transition: 1s;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    /* background-color:#c39143; */
+    margin:5px auto;
+    cursor:url(./img/hammer1.png), auto;  
+    -moz-border-radius: 50px/50px;
+    -webkit-border-radius: 50px 50px;
+    border-radius: 50px/50px;
+    /* background-image: url(hole2.png); */
+    background-size: cover;
+    /* box-shadow: 0px 0px 5px 5px yellow; */
+}
+.hole1, .hole2, .hole3, .hole4, .hole5, .hole6, .hole7, .hole8,.hole9{ 
+    width: 100px;;
+    height:100px;
+    margin: 33px;
+    background-color: rgb(168, 223, 65);
+    float:left;
+
+}
+#hole, img{
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+img{
+    border: 5px solid brown;
+    box-shadow: 0px 0px 15px 15px rgb(67, 24, 24);
+}
+.textArea{
+    background-color:orange;
+    width: 300px;
+    margin: 1px auto;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px 7px black;
+}
+#easyMode{
+    background-color: greenyellow;
+}
+#hardMode{
+    background-color: rgb(236, 33, 104);
+}
